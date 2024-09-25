@@ -22,6 +22,9 @@ function generateDivs() {
         box.addEventListener("touchmove", function() {
           box.style.background = color;
         });
+        box.addEventListener("touchstart", function() {
+          box.style.background = color;
+        });
         i++
     }
      
